@@ -34,7 +34,7 @@
 The priorities of configuration files are: command line > config file > default values of argparse. To train the SLR model, run the command below:
 
 ```bash
-python main.py --device your_device
+python main.py --config ./config/baseline.yaml --device your_device
 ```
 ## Inference
 
